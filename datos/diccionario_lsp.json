@@ -4929,183 +4929,183 @@
   },
   {
     "id": "LSP-000621",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "aeropuerto",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_234_tarjeta_01.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000622",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "avenida",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_234_tarjeta_02.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000623",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "casa",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_234_tarjeta_03.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000624",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "comisaría",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_234_tarjeta_04.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000625",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "cárcel",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_234_tarjeta_05.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000626",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "cementerio",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_234_tarjeta_06.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000627",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "fábrica",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_235_tarjeta_01.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000628",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "hospital",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_235_tarjeta_02.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000629",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "iglesia",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_235_tarjeta_03.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000630",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "ministerio de educación",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_235_tarjeta_04.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000631",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "ministerio de trabajo",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_235_tarjeta_05.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000632",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "municipalidad",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_235_tarjeta_06.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000633",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "cina",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_236_tarjeta_01.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000634",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "circo",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_236_tarjeta_02.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000635",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "colegio",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_236_tarjeta_03.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000636",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "correos",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_236_tarjeta_04.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000637",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "edificios",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_236_tarjeta_05.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000638",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "estadio",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_236_tarjeta_06.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000639",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "país",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_237_tarjeta_01.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000640",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "restaurant",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_237_tarjeta_02.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000641",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "tienda",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_237_tarjeta_03.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000642",
-    "categoria": "paises_lugares",
+    "categoria": "instituciones_y_lugares",
     "palabra": "universidad",
     "descripcion": "",
-    "archivo_imagen": "imagenes/paises_lugares/revisar_pagina_237_tarjeta_04.png",
+    "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000643",
-    "categoria": "paises_lugares",
+    "categoria": "paises_y_ciudades",
     "palabra": "rusia",
     "descripcion": "Con la mano derecha en puño hacer un movimiento hacia la izquierda y hacia abajo.",
     "archivo_imagen": "imagenes/paises_lugares/rusia.png",

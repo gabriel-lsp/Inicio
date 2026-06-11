@@ -147,7 +147,7 @@ async function iniciar() {
     }
 
     estado.registros = datos;
-    estado.resultados = datos;
+    estado.resultados = [...datos].sort(() => Math.random() - 0.5);
     cargarCategorias(datos);
     renderizar();
   } catch (error) {

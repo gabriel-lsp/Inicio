@@ -5665,122 +5665,122 @@
   },
   {
     "id": "LSP-000718",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "el",
     "descripcion": "1. Seña de hombre. 2. Dedo índice señalando a la persona de la que se habla.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/el.png",
+    "archivo_imagen": "imagenes/pronombres_personales/el.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000719",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "el articulo",
     "descripcion": "1. Letra “E”. 2. Letra “L”.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/el_articulo.png",
+    "archivo_imagen": "imagenes/pronombres_personales/el_articulo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000720",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "ella",
     "descripcion": "1. Seña de mujer. 2. Con el dedo índice señalar hacia la persona de quien se habla.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/ella.png",
+    "archivo_imagen": "imagenes/pronombres_personales/ella.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000721",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "ellas",
     "descripcion": "1. Seña de mujer. 2. Con el dedo índice realizar movimiento semicircular, dirigiéndose hacia el grupo del que se habla de izquierda a derecha.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/ellas.png",
+    "archivo_imagen": "imagenes/pronombres_personales/ellas.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000722",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "ellos",
     "descripcion": "2 1. Seña de hombre. 2. Con el dedo índice realizar movimiento semicircular, dirigiéndose hacia el grupo del que se habla de izquierda a derecha.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/ellos.png",
+    "archivo_imagen": "imagenes/pronombres_personales/ellos.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000723",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "la articulo",
     "descripcion": "1. Letra “L”. 2. Letra “A”.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/la_articulo.png",
+    "archivo_imagen": "imagenes/pronombres_personales/la_articulo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000724",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "lo articulo",
     "descripcion": "1. Letra “L”. 2. Letra “O”.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/lo_articulo.png",
+    "archivo_imagen": "imagenes/pronombres_personales/lo_articulo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000725",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "los",
     "descripcion": "Deletrear “L” “O” “S”.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/los.png",
+    "archivo_imagen": "imagenes/pronombres_personales/los.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000726",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "mi",
     "descripcion": "Mano derecha con la palma abierta sobre el pecho de la persona que habla.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/mi.png",
+    "archivo_imagen": "imagenes/pronombres_personales/mi.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000727",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "nosotros",
     "descripcion": "Configurar “N” con la mano derecha en el hombro derecho, llevar hacia el hombro izquierdo.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/nosotros.png",
+    "archivo_imagen": "imagenes/pronombres_personales/nosotros.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000728",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "tu",
     "descripcion": "Índice de la mano derecha señalando hacia la persona que se desea indicar.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/tu.png",
+    "archivo_imagen": "imagenes/pronombres_personales/tu.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000729",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "un",
     "descripcion": "Seña del número uno.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/un.png",
+    "archivo_imagen": "imagenes/pronombres_personales/un.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000730",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "una p147 t03",
     "descripcion": "Seña del número uno, terminar haciendo la letra “A”.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/una_p147_t03.png",
+    "archivo_imagen": "imagenes/pronombres_personales/una_p147_t03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000731",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "ustedes",
     "descripcion": "Con el dedo índice de la mano derecha señalar hacia afuera varias veces como dirigiéndose a un grupo de personas.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/ustedes.png",
+    "archivo_imagen": "imagenes/pronombres_personales/ustedes.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000732",
-    "categoria": "pronombres_personales_signos_gramaticales",
+    "categoria": "pronombres_personales",
     "palabra": "yo",
     "descripcion": "Índice de la mano derecha dirigiéndose al pecho de la persona que habla, una sola vez.",
-    "archivo_imagen": "imagenes/pronombres_personales_signos_gramaticales/yo.png",
+    "archivo_imagen": "imagenes/pronombres_personales/yo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {

@@ -206,21 +206,21 @@ function filtrar() {
   const consulta = normalizar(elementos.busqueda.value);
   const categoria = elementos.categoria.value;
 
-  estado.resultados = estado.registros.filter((registro) => {
-const filtrados = estado.registros.filter((registro) => {
-  const coincidePalabra =
-    !consulta || normalizar(registro.palabra).includes(consulta);
-  const coincideCategoria =
-    !categoria || registro.categoria === categoria;
-  return coincidePalabra && coincideCategoria;
-});
+  const filtrados = estado.registros.filter((registro) => {
+    const coincidePalabra =
+      !consulta || normalizar(registro.palabra).includes(consulta);
 
-estado.resultados = ordenarRegistros(filtrados);
-  
+    const coincideCategoria =
+      !categoria || registro.categoria === categoria;
+
+    return coincidePalabra && coincideCategoria;
+  });
+
+  estado.resultados = ordenarRegistros(filtrados);
   estado.visibles = TAMANO_LOTE;
   renderizar();
 }
-
+                                         
 function limpiarFiltros() {
   elementos.busqueda.value = "";
   elementos.categoria.value = "";

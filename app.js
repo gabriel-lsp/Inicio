@@ -202,12 +202,17 @@ function crearTarjeta(registro) {
 function renderizar() {
   elementos.galeria.replaceChildren();
 
-  const categoriaActual = elementos.categoria.value;
+const categoriaActual = elementos.categoria.value;
+const categoriaEsSecuencial = esCategoriaSecuencial(categoriaActual);
 
-  elementos.galeria.classList.toggle(
-    "galeria-secuencia",
-    esCategoriaSecuencial(categoriaActual),
-  );
+elementos.galeria.classList.toggle(
+  "galeria-secuencia",
+  categoriaEsSecuencial,
+);
+
+if (elementos.notaSecuencia) {
+  elementos.notaSecuencia.hidden = !categoriaEsSecuencial;
+}
 
   const cantidad = estado.resultados.length;
   const limite = Math.min(estado.visibles, cantidad);

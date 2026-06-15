@@ -11,7 +11,7 @@ formularioRegistro.addEventListener("submit", async (evento) => {
     institucion: formularioRegistro.institucion.value.trim(),
     rol: formularioRegistro.rol.value,
     modulo: formularioRegistro.modulo.value,
-    motivo: formularioRegistro.motivo.value,
+    motivo: "",
     correo: formularioRegistro.correo.value.trim(),
     comentario: formularioRegistro.comentario.value.trim()
   };

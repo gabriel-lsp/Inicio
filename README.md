@@ -34,6 +34,8 @@ banco-digital-lsp/
 ├── accesibilidad.html
 ├── contacto.html
 ├── faq.html
+├── README.md
+├── LICENSE
 │
 ├── datos/
 │   └── diccionario_lsp.json
@@ -41,8 +43,16 @@ banco-digital-lsp/
 ├── imagenes/
 │   └── categorias_de_senas/
 │
-└── README.md
+└── docs/
+    ├── alcance-pedagogico.md
+    ├── fuentes-y-creditos.md
+    ├── uso-permitido.md
+    ├── respaldo-institucional.md
+    ├── estructura-del-proyecto.md
+    └── bitacora-de-cambios.md
 ```
+
+La carpeta `docs` reúne documentos de respaldo pedagógico, autoral, institucional y organizativo del proyecto.
 
 ## Fuente del material visual
 
@@ -63,6 +73,10 @@ Este proyecto puede ser consultado y utilizado con fines educativos, pedagógico
 Al reutilizar, compartir o citar el recurso, debe conservarse la referencia al proyecto, al autor responsable, al CREBE "Señor de los Milagros" - Ucayali y a la fuente institucional del material visual.
 
 No se autoriza el uso comercial del banco digital ni de sus contenidos sin autorización correspondiente.
+
+## Licencia
+
+El código del repositorio se rige por el archivo `LICENSE`. Esta licencia no otorga automáticamente derechos sobre imágenes, materiales visuales, logos institucionales, documentos externos o recursos elaborados por terceros.
 
 ## Alcances y limitaciones
 

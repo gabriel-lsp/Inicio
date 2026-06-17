@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Portal visual de recursos educativos accesibles del CREBE Señor de los Milagros - Ucayali."
+  >
+  <title>Recursos accesibles CREBE Ucayali</title>
+  <style>
+    :root {
+      --azul: #083b77;
+      --azul-oscuro: #04295a;
+      --turquesa: #009c9a;
+      --verde: #4f9f45;
+      --morado: #7462c7;
+      --naranja: #ed8b00;
+      --celeste: #eaf5ff;
+      --fondo: #f6fbff;
+      --texto: #21324a;
+      --borde: #dbe8f5;
+      --blanco: #ffffff;
+      --sombra: 0 16px 36px rgba(8, 59, 119, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--texto);
+      background:
+        radial-gradient(circle at top right, rgba(0, 156, 154, 0.14), transparent 32rem),
+        linear-gradient(180deg, #ffffff 0%, var(--fondo) 55%, #ffffff 100%);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .salto-contenido {
+      position: absolute;
+      left: -999px;
+      top: 1rem;
+      z-index: 99;
+      padding: 0.75rem 1rem;
+      background: var(--azul);
+      color: var(--blanco);
+      border-radius: 0.75rem;
+    }
+
+    .salto-contenido:focus {
+      left: 1rem;
+    }
+
+    .contenedor {
+      width: min(1180px, calc(100% - 2rem));
+      margin: 0 auto;
+    }
+
+    .cabecera {
+      padding: 1rem 0 0.75rem;
+    }
+
+    .navegacion {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.75rem 0;
+    }
+
+    .marca {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+    }
+
+    .marca img {
+      width: 58px;
+      height: 58px;
+      object-fit: contain;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 8px 18px rgba(8, 59, 119, 0.12);
+    }
+
+    .marca strong {
+      display: block;
+      color: var(--azul);
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      line-height: 1.15;
+    }
+
+    .marca span {
+      display: block;
+      margin-top: 0.2rem;
+      color: var(--turquesa);
+      font-weight: 700;
+    }
+
+    .enlaces {
+      display: flex;
+      align-items: center;
+      gap: clamp(0.5rem, 2vw, 1.5rem);
+      color: var(--azul-oscuro);
+      font-weight: 700;
+    }
+
+    .enlaces a {
+      padding: 0.65rem 0.2rem;
+      border-bottom: 3px solid transparent;
+    }
+
+    .enlaces a:hover,
+    .enlaces a:focus {
+      color: var(--turquesa);
+      border-color: var(--turquesa);
+      outline: none;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.02fr 0.98fr;
+      gap: 2rem;
+      align-items: center;
+      margin-top: 1rem;
+      padding: clamp(1.5rem, 4vw, 3rem);
+      background:
+        linear-gradient(135deg, rgba(234, 245, 255, 0.98), rgba(255, 255, 255, 0.92)),
+        radial-gradient(circle at 80% 20%, rgba(79, 159, 69, 0.2), transparent 16rem);
+      border: 1px solid var(--borde);
+      border-radius: 2rem;
+      box-shadow: var(--sombra);
+      overflow: hidden;
+    }
+
+    .etiqueta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin: 0 0 0.85rem;
+      padding: 0.45rem 0.75rem;
+      border-radius: 999px;
+      color: var(--turquesa);
+      background: rgba(0, 156, 154, 0.1);
+      font-weight: 800;
+      font-size: 0.9rem;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--azul);
+      font-size: clamp(2.25rem, 7vw, 5rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+    }
+
+    .subtitulo {
+      margin: 1rem 0 0;
+      color: var(--turquesa);
+      font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+      font-weight: 800;
+    }
+
+    .descripcion {
+      max-width: 38rem;
+      margin: 0.8rem 0 0;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    .acciones {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .boton {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.55rem;
+      min-height: 3rem;
+      padding: 0.85rem 1.25rem;
+      border-radius: 0.95rem;
+      font-weight: 800;
+      border: 2px solid transparent;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    .boton:hover,
+    .boton:focus {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(8, 59, 119, 0.14);
+      outline: none;
+    }
+
+    .boton-principal {
+      background: var(--turquesa);
+      color: var(--blanco);
+    }
+
+    .boton-secundario {
+      background: var(--blanco);
+      color: var(--turquesa);
+      border-color: rgba(0, 156, 154, 0.45);
+    }
+
+    .ilustracion {
+      position: relative;
+      min-height: 360px;
+      border-radius: 1.5rem;
+      background:
+        radial-gradient(circle at 20% 20%, #ffffff 0 0.25rem, transparent 0.3rem) 0 0 / 1.3rem 1.3rem,
+        linear-gradient(135deg, rgba(0, 156, 154, 0.12), rgba(8, 59, 119, 0.08));
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .figura-grande {
+      width: min(92%, 540px);
+      filter: drop-shadow(0 20px 24px rgba(8, 59, 119, 0.16));
+    }
+
+    .icono-flotante {
+      position: absolute;
+      display: grid;
+      place-items: center;
+      width: 4.4rem;
+      height: 4.4rem;
+      border-radius: 1.2rem;
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      box-shadow: 0 12px 24px rgba(8, 59, 119, 0.12);
+      color: var(--azul);
+      font-weight: 900;
+    }
+
+    .icono-1 { top: 2rem; left: 2.2rem; color: var(--turquesa); }
+    .icono-2 { top: 2.6rem; right: 3rem; color: var(--morado); }
+    .icono-3 { bottom: 2rem; left: 3.5rem; color: var(--verde); }
+
+    .seccion {
+      padding: 3rem 0 0;
+    }
+
+    .titulo-seccion {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.4rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .titulo-seccion::before,
+    .titulo-seccion::after {
+      content: "";
+      width: min(9rem, 18vw);
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--turquesa));
+    }
+
+    .titulo-seccion::after {
+      background: linear-gradient(90deg, var(--turquesa), transparent);
+    }
+
+    .titulo-seccion h2 {
+      margin: 0;
+      color: var(--azul);
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+    }
+
+    .modulos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .tarjeta {
+      display: grid;
+      grid-template-columns: 86px 1fr;
+      gap: 1rem;
+      align-items: center;
+      min-height: 150px;
+      padding: 1.25rem;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--borde);
+      border-radius: 1.3rem;
+      box-shadow: 0 12px 26px rgba(8, 59, 119, 0.09);
+    }
+
+    .icono-tarjeta {
+      display: grid;
+      place-items: center;
+      width: 76px;
+      height: 76px;
+      border-radius: 1.25rem;
+      font-size: 1.8rem;
+      font-weight: 900;
+    }
+
+    .tarjeta h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .tarjeta p {
+      margin: 0.35rem 0 0.75rem;
+      line-height: 1.4;
+    }
+
+    .tarjeta .mini-boton {
+      display: inline-flex;
+      padding: 0.45rem 1rem;
+      color: var(--blanco);
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .lsp { color: var(--turquesa); }
+    .braille { color: var(--morado); }
+    .materiales { color: var(--verde); }
+    .juegos { color: var(--naranja); }
+    .capacitaciones { color: #0b72c9; }
+    .visitas { color: var(--turquesa); }
+
+    .fondo-lsp { background: rgba(0, 156, 154, 0.14); }
+    .fondo-braille { background: rgba(116, 98, 199, 0.14); }
+    .fondo-materiales { background: rgba(79, 159, 69, 0.14); }
+    .fondo-juegos { background: rgba(237, 139, 0, 0.14); }
+    .fondo-capacitaciones { background: rgba(11, 114, 201, 0.14); }
+    .fondo-visitas { background: rgba(0, 156, 154, 0.14); }
+
+    .bg-lsp { background: var(--turquesa); }
+    .bg-braille { background: var(--morado); }
+    .bg-materiales { background: var(--verde); }
+    .bg-juegos { background: var(--naranja); }
+    .bg-capacitaciones { background: #0b72c9; }
+    .bg-visitas { background: var(--turquesa); }
+
+    .sobre {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 1.25rem;
+      align-items: center;
+      margin-top: 2rem;
+      padding: 1.5rem;
+      border-radius: 1.5rem;
+      background:
+        radial-gradient(circle at right bottom, rgba(79, 159, 69, 0.18), transparent 20rem),
+        linear-gradient(135deg, rgba(0, 156, 154, 0.11), rgba(255, 255, 255, 0.92));
+      border: 1px solid var(--borde);
+    }
+
+    .sobre-icono {
+      display: grid;
+      place-items: center;
+      width: 104px;
+      height: 104px;
+      border-radius: 2rem;
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--turquesa);
+    }
+
+    .sobre h2 {
+      margin: 0;
+      color: var(--turquesa);
+      font-size: 1.65rem;
+    }
+
+    .sobre p {
+      max-width: 54rem;
+      margin: 0.5rem 0 0;
+      line-height: 1.6;
+    }
+
+    .accesos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+    }
+
+    .pastilla {
+      min-width: 150px;
+      padding: 0.8rem 1rem;
+      text-align: center;
+      border-radius: 999px;
+      border: 1px solid #bdd0e5;
+      background: rgba(255, 255, 255, 0.86);
+      color: var(--azul);
+      font-weight: 800;
+    }
+
+    .pastilla:hover,
+    .pastilla:focus {
+      border-color: var(--turquesa);
+      color: var(--turquesa);
+      outline: none;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1.4rem 1rem;
+      color: var(--blanco);
+      background: linear-gradient(135deg, var(--azul-oscuro), var(--azul));
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0.25rem 0;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .modulos {
+        grid-template-columns: 1fr;
+      }
+
+      .ilustracion {
+        min-height: 300px;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .navegacion {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .enlaces {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 0.35rem;
+      }
+
+      .hero {
+        padding: 1.25rem;
+        border-radius: 1.4rem;
+      }
+
+      .tarjeta,
+      .sobre {
+        grid-template-columns: 1fr;
+      }
+
+      .titulo-seccion::before,
+      .titulo-seccion::after {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="salto-contenido" href="#contenido">Ir al contenido</a>
+
+  <header class="cabecera" id="inicio">
+    <div class="contenedor">
+      <nav class="navegacion" aria-label="Navegación principal">
+        <a class="marca" href="portal.html" aria-label="Inicio del portal de recursos accesibles">
+          <img src="logo-crebe.png" alt="Logo del CREBE Señor de los Milagros - Ucayali">
+          <span>
+            <strong>CREBE "Señor de los Milagros"</strong>
+            <span>Ucayali</span>
+          </span>
+        </a>
+
+        <div class="enlaces">
+          <a href="#inicio">Inicio</a>
+          <a href="#modulos">Recursos</a>
+          <a href="teoria.html">Teoría LSP</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="contenedor hero" aria-labelledby="titulo-principal">
+      <div>
+        <p class="etiqueta">Portal educativo accesible</p>
+        <h1 id="titulo-principal">Recursos accesibles CREBE Ucayali</h1>
+        <p class="subtitulo">Herramientas digitales para fortalecer la inclusión educativa</p>
+        <p class="descripcion">
+          Banco Digital LSP, Braille, materiales educativos, juegos accesibles y herramientas de apoyo pedagógico para docentes, familias y estudiantes.
+        </p>
+
+        <div class="acciones" aria-label="Acciones principales">
+          <a class="boton boton-principal" href="index.html">Ingresar al Banco Digital LSP</a>
+          <a class="boton boton-secundario" href="#modulos">Ver recursos</a>
+        </div>
+      </div>
+
+      <div class="ilustracion" aria-label="Ilustración educativa sobre inclusión y recursos accesibles">
+        <div class="icono-flotante icono-1">LSP</div>
+        <div class="icono-flotante icono-2">BR</div>
+        <div class="icono-flotante icono-3">ED</div>
+        <svg class="figura-grande" viewBox="0 0 720 420" role="img" aria-label="Docentes, estudiantes y recursos educativos accesibles">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#009c9a"/>
+              <stop offset="1" stop-color="#083b77"/>
+            </linearGradient>
+            <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#f6d36b"/>
+              <stop offset="1" stop-color="#ed8b00"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="360" cy="342" rx="310" ry="42" fill="#d9eaf8"/>
+          <circle cx="205" cy="105" r="54" fill="#ffd7bc"/>
+          <path d="M128 330c12-92 35-147 79-147s72 55 84 147z" fill="#009c9a"/>
+          <path d="M161 98c20-52 89-46 102 5 7 28-4 50-18 68-18-14-41-19-75-10-20-17-22-39-9-63z" fill="#5b392d"/>
+          <path d="M237 199c25-15 55-3 68 21 18 35 11 84-19 107h-80c-14-27-10-103 31-128z" fill="#0b72c9"/>
+          <circle cx="274" cy="187" r="38" fill="#ffd0ad"/>
+          <path d="M232 179c7-39 59-53 85-20 11 14 13 34 10 52-28-25-55-26-95-32z" fill="#202a44"/>
+          <rect x="214" y="258" width="160" height="100" rx="16" fill="#ffffff" stroke="#bdd0e5" stroke-width="4"/>
+          <g fill="none" stroke="#ed8b00" stroke-width="6" stroke-linecap="round">
+            <path d="M244 288v34M267 286v35M290 292v30M313 286v35"/>
+            <path d="M244 305h70"/>
+          </g>
+          <circle cx="490" cy="100" r="48" fill="#ffd7bc"/>
+          <path d="M428 330c10-85 30-135 70-135s65 50 78 135z" fill="#4f9f45"/>
+          <path d="M450 83c19-41 80-34 90 8 7 30-5 50-17 67-18-16-39-23-69-16-16-18-15-38-4-59z" fill="#202a44"/>
+          <rect x="418" y="194" width="142" height="86" rx="14" fill="#ffffff" stroke="#bdd0e5" stroke-width="4"/>
+          <g fill="#4f9f45">
+            <circle cx="448" cy="222" r="8"/><circle cx="482" cy="222" r="8"/><circle cx="516" cy="222" r="8"/>
+            <circle cx="448" cy="252" r="8"/><circle cx="482" cy="252" r="8"/><circle cx="516" cy="252" r="8"/>
+          </g>
+          <circle cx="585" cy="210" r="40" fill="#ffd0ad"/>
+          <path d="M537 344c10-58 25-97 61-97s56 38 66 97z" fill="url(#g2)"/>
+          <path d="M548 196c18-36 72-31 84 8 5 16 2 31-7 47-22-17-45-19-79-8-8-19-8-34 2-47z" fill="#3b2f36"/>
+          <rect x="545" y="286" width="112" height="54" rx="12" fill="#e9f6e7" stroke="#84bd7b" stroke-width="4"/>
+          <g fill="#7462c7">
+            <circle cx="573" cy="307" r="5"/><circle cx="595" cy="307" r="5"/><circle cx="617" cy="307" r="5"/>
+            <circle cx="573" cy="324" r="5"/><circle cx="595" cy="324" r="5"/><circle cx="617" cy="324" r="5"/>
+          </g>
+          <path d="M96 238c-14-34-1-62 28-74" fill="none" stroke="#ffd0ad" stroke-width="18" stroke-linecap="round"/>
+          <path d="M123 162l18-30M123 162l-26-16M123 162l-3-35" fill="none" stroke="#ffd0ad" stroke-width="12" stroke-linecap="round"/>
+          <g fill="url(#g1)" opacity="0.28">
+            <path d="M57 349c22-40 40-64 67-91-7 45-23 78-67 91z"/>
+            <path d="M650 348c-33-46-58-70-91-89 12 45 35 77 91 89z"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="contenedor seccion" id="modulos" aria-labelledby="titulo-modulos">
+      <div class="titulo-seccion">
+        <h2 id="titulo-modulos">Módulos principales</h2>
+      </div>
+
+      <div class="modulos">
+        <article class="tarjeta">
+          <div class="icono-tarjeta fondo-lsp lsp">LS</div>
+          <div>
+            <h3 class="lsp">Banco LSP</h3>
+            <p>Consulta de señas por categoría.</p>
+            <a class="mini-boton bg-lsp" href="index.html">Ingresar</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono-tarjeta fondo-braille braille">BR</div>
+          <div>
+            <h3 class="braille">Banco Braille</h3>
+            <p>Letras, signos y actividades.</p>
+            <a class="mini-boton bg-braille" href="#modulos">Próximamente</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono-tarjeta fondo-materiales materiales">ME</div>
+          <div>
+            <h3 class="materiales">Materiales educativos</h3>
+            <p>Fichas, guías y recursos.</p>
+            <a class="mini-boton bg-materiales" href="#modulos">Ver recursos</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono-tarjeta fondo-juegos juegos">JA</div>
+          <div>
+            <h3 class="juegos">Juegos accesibles</h3>
+            <p>Memoria, secuencias y dinámicas.</p>
+            <a class="mini-boton bg-juegos" href="#modulos">Ingresar</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono-tarjeta fondo-capacitaciones capacitaciones">CA</div>
+          <div>
+            <h3 class="capacitaciones">Capacitaciones</h3>
+            <p>Talleres y recursos formativos.</p>
+            <a class="mini-boton bg-capacitaciones" href="#modulos">Ver</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono-tarjeta fondo-visitas visitas">RV</div>
+          <div>
+            <h3 class="visitas">Registro de visitas</h3>
+            <p>Formulario y seguimiento.</p>
+            <a class="mini-boton bg-visitas" href="#modulos">Abrir</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="sobre" aria-labelledby="titulo-sobre">
+        <div class="sobre-icono" aria-hidden="true">
+          <svg width="70" height="70" viewBox="0 0 80 80" fill="none">
+            <circle cx="25" cy="30" r="10" fill="currentColor" opacity="0.85"/>
+            <circle cx="55" cy="30" r="10" fill="currentColor" opacity="0.85"/>
+            <path d="M18 64c2-14 10-22 22-22s20 8 22 22" fill="currentColor" opacity="0.85"/>
+            <path d="M40 18c5-10 21-8 21 5 0 13-21 22-21 22S19 36 19 23c0-13 16-15 21-5Z" fill="currentColor" opacity="0.55"/>
+          </svg>
+        </div>
+        <div>
+          <h2 id="titulo-sobre">Sobre el proyecto</h2>
+          <p>
+            Proyecto educativo sin fines de lucro orientado al acceso a recursos visuales, comunicativos y pedagógicos para docentes, familias y estudiantes.
+          </p>
+        </div>
+      </div>
+
+      <div class="accesos" aria-label="Accesos rápidos">
+        <a class="pastilla" href="contacto.html">Contacto</a>
+        <a class="pastilla" href="index.html">Banco LSP</a>
+        <a class="pastilla" href="#modulos">Banco Braille</a>
+        <a class="pastilla" href="#modulos">Materiales</a>
+        <a class="pastilla" href="#inicio">Volver al inicio</a>
+        <a class="pastilla" href="https://crebeucayali.weebly.com/">Web principal</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Recursos accesibles CREBE Ucayali</p>
+    <p>Desarrollado por Gabriel Bermúdez con apoyo institucional del CREBE "Señor de los Milagros" - Ucayali.</p>
+  </footer>
+</body>
+</html>

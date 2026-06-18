@@ -1,16 +1,16 @@
 # Banco Digital de Lengua de Señas Peruana
 
-Banco Digital de Lengua de Señas Peruana es una aplicación web educativa de consulta visual, organizada para facilitar el acceso a vocabulario básico de la Lengua de Señas Peruana en contextos escolares, familiares e institucionales.
+Banco Digital de Lengua de Señas Peruana es una aplicación web educativa que desarrollé como proyecto personal para organizar y facilitar la consulta visual de vocabulario básico de la Lengua de Señas Peruana.
 
-El proyecto fue desarrollado como un recurso de apoyo para docentes, estudiantes, familias, profesionales de educación inclusiva y comunidad educativa interesada en fortalecer el reconocimiento y uso de señas en situaciones de aprendizaje.
+El recurso está pensado como apoyo para docentes, estudiantes, familias, profesionales de educación inclusiva y personas interesadas en reconocer señas de uso educativo. Puede utilizarse en contextos escolares, familiares o formativos, manteniendo siempre su carácter de herramienta de consulta y apoyo pedagógico.
 
 Aplicación web: https://gabriel-lsp.github.io/banco-digital-lsp/
 
 ## Finalidad del proyecto
 
-Este banco digital tiene una finalidad educativa, accesible y no comercial. Su propósito es organizar y presentar señas de manera clara, visual y funcional, permitiendo la búsqueda por palabra y la exploración por categorías.
+La finalidad principal es organizar y presentar señas de manera clara, visual y funcional, permitiendo la búsqueda por palabra y la exploración por categorías.
 
-El recurso no reemplaza la enseñanza formal de la Lengua de Señas Peruana ni la orientación de personas sordas, intérpretes o especialistas competentes. Debe entenderse como una herramienta de consulta y apoyo pedagógico.
+Este banco digital tiene finalidad educativa, accesible y no comercial. No reemplaza la enseñanza formal de la Lengua de Señas Peruana ni la orientación de personas sordas, intérpretes o especialistas competentes. Debe entenderse como un apoyo inicial para la consulta y la sensibilización educativa.
 
 ## Funciones principales
 
@@ -47,36 +47,36 @@ banco-digital-lsp/
     ├── alcance-pedagogico.md
     ├── fuentes-y-creditos.md
     ├── uso-permitido.md
-    ├── respaldo-institucional.md
+    ├── autoria-y-contexto.md
     ├── estructura-del-proyecto.md
     └── bitacora-de-cambios.md
 ```
 
-La carpeta `docs` reúne documentos de respaldo pedagógico, autoral, institucional y organizativo del proyecto.
+La estructura puede ajustarse según el crecimiento del proyecto. La carpeta `docs` permite conservar información de respaldo pedagógico, autoral, técnico y organizativo.
 
 ## Fuente del material visual
 
 Las imágenes y descripciones de referencia provienen de la Guía de Lengua de Señas Peruana del Ministerio de Educación del Perú.
 
-La organización, clasificación, adaptación digital, estructura de consulta y desarrollo de la plataforma web corresponden al trabajo realizado para este proyecto educativo.
+La organización, clasificación, adaptación digital, estructura de consulta y desarrollo de la plataforma web corresponden al trabajo realizado para este proyecto personal, sin afectar la autoría o titularidad de los materiales externos utilizados como referencia.
 
 ## Autoría y desarrollo
 
-Proyecto desarrollado y organizado por Gabriel Berrospi, en calidad de desarrollador principal y coordinador del Banco Digital de Lengua de Señas Peruana.
+Proyecto desarrollado y organizado por Gabriel Berrospi como recurso educativo digital personal orientado a la accesibilidad, la inclusión educativa y el apoyo pedagógico.
 
-El recurso cuenta con apoyo institucional del CREBE "Señor de los Milagros" - Ucayali, en el marco de acciones orientadas a la accesibilidad, inclusión educativa y fortalecimiento de recursos pedagógicos.
+Cuando el recurso sea utilizado dentro de acciones educativas del CREBE "Señor de los Milagros" - Ucayali u otra institución, dicha referencia debe entenderse como contexto de uso o coordinación, no como transferencia de autoría ni titularidad del proyecto digital.
 
 ## Uso permitido
 
-Este proyecto puede ser consultado y utilizado con fines educativos, pedagógicos, familiares, institucionales y de sensibilización.
+Este proyecto puede ser consultado y utilizado con fines educativos, pedagógicos, familiares y de sensibilización.
 
-Al reutilizar, compartir o citar el recurso, debe conservarse la referencia al proyecto, al autor responsable, al CREBE "Señor de los Milagros" - Ucayali y a la fuente institucional del material visual.
+Al reutilizar, compartir o citar el recurso, debe conservarse la referencia al proyecto, al autor responsable y a la fuente institucional del material visual. Si se usa en el marco de una institución educativa, también debe respetarse el contexto autorizado de uso.
 
 No se autoriza el uso comercial del banco digital ni de sus contenidos sin autorización correspondiente.
 
 ## Licencia
 
-El código del repositorio se rige por el archivo `LICENSE`. Esta licencia no otorga automáticamente derechos sobre imágenes, materiales visuales, logos institucionales, documentos externos o recursos elaborados por terceros.
+El código del repositorio se rige por el archivo `LICENSE`. Esta licencia no otorga automáticamente derechos sobre imágenes, materiales visuales, logos, documentos externos o recursos elaborados por terceros.
 
 ## Alcances y limitaciones
 
@@ -106,5 +106,5 @@ Aplicación web: https://gabriel-lsp.github.io/banco-digital-lsp/
 ## Créditos
 
 Banco Digital de Lengua de Señas Peruana.  
-Desarrollado por Gabriel Berrospi con apoyo institucional del CREBE "Señor de los Milagros" - Ucayali.  
+Proyecto desarrollado y organizado por Gabriel Berrospi.  
 Material visual de referencia: Ministerio de Educación del Perú, Guía de Lengua de Señas Peruana.

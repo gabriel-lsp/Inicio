@@ -907,7 +907,7 @@
     "id": "LSP-000114",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "b",
-    "descripcion": "B",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -915,7 +915,7 @@
     "id": "LSP-000115",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "c",
-    "descripcion": "C",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -923,7 +923,7 @@
     "id": "LSP-000116",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "d",
-    "descripcion": "D",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -931,7 +931,7 @@
     "id": "LSP-000117",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "e",
-    "descripcion": "E",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -939,7 +939,7 @@
     "id": "LSP-000118",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "f",
-    "descripcion": "F",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -947,7 +947,7 @@
     "id": "LSP-000119",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "g",
-    "descripcion": "G",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_07.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -955,7 +955,7 @@
     "id": "LSP-000120",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "h",
-    "descripcion": "H",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_08.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -963,7 +963,7 @@
     "id": "LSP-000121",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "i",
-    "descripcion": "I",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_09.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -971,7 +971,7 @@
     "id": "LSP-000122",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "j",
-    "descripcion": "J",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_10.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -979,7 +979,7 @@
     "id": "LSP-000123",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "k",
-    "descripcion": "K",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_11.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -987,7 +987,7 @@
     "id": "LSP-000124",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "l",
-    "descripcion": "L",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_12.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -995,7 +995,7 @@
     "id": "LSP-000125",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "m",
-    "descripcion": "M",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_13.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1003,7 +1003,7 @@
     "id": "LSP-000126",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "n ñ",
-    "descripcion": "N Ñ",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_14.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1011,7 +1011,7 @@
     "id": "LSP-000127",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "o",
-    "descripcion": "O",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_069_tarjeta_15.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1019,7 +1019,7 @@
     "id": "LSP-000128",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "p",
-    "descripcion": "P",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1027,7 +1027,7 @@
     "id": "LSP-000129",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "q",
-    "descripcion": "Q",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1035,7 +1035,7 @@
     "id": "LSP-000130",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "r",
-    "descripcion": "R",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1043,7 +1043,7 @@
     "id": "LSP-000131",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "s",
-    "descripcion": "S",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1051,7 +1051,7 @@
     "id": "LSP-000132",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "t",
-    "descripcion": "T",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1059,7 +1059,7 @@
     "id": "LSP-000133",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "u",
-    "descripcion": "U",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1067,7 +1067,7 @@
     "id": "LSP-000134",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "v",
-    "descripcion": "V",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_07.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1075,7 +1075,7 @@
     "id": "LSP-000135",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "w",
-    "descripcion": "W",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_08.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1083,7 +1083,7 @@
     "id": "LSP-000136",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "x",
-    "descripcion": "X",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_09.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1091,7 +1091,7 @@
     "id": "LSP-000137",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "y",
-    "descripcion": "Y",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_10.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1099,7 +1099,7 @@
     "id": "LSP-000138",
     "categoria": "alfabeto_manual_peruano",
     "palabra": "z",
-    "descripcion": "Z",
+    "descripcion": "",
     "archivo_imagen": "imagenes/alfabeto_manual_peruano/revisar_pagina_070_tarjeta_11.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },

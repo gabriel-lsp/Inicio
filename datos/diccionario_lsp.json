@@ -1947,7 +1947,7 @@
     "id": "LSP-000244",
     "categoria": "animales",
     "palabra": "buho",
-    "descripcion": "",
+    "descripcion": "Configurar con ambas manos la "D" y llevarlas a los ojos con movimientos suaves",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1956,6 +1956,7 @@
     "categoria": "animales",
     "palabra": "burro",
     "descripcion": "",
+    "descripcion": "Colocar la mano derecha en la sien con los dedos indice, medio, anular y mefique semiflexionados excepto el pulgar moviéndolos hacia adelante.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1964,6 +1965,7 @@
     "categoria": "animales",
     "palabra": "caballo",
     "descripcion": "",
+    "descripcion": "Con ambas manos con los dedos flexionados excepto el pulgar, a cada lado del tronco realizar movimientos circulares hacia adelante.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1971,7 +1973,7 @@
     "id": "LSP-000247",
     "categoria": "animales",
     "palabra": "chancho",
-    "descripcion": "",
+    "descripcion": "Apoyar en las fosas los dedos índice y medio juntos y realizar un movimiento hacia arriba.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1979,7 +1981,7 @@
     "id": "LSP-000248",
     "categoria": "animales",
     "palabra": "cocodrilo",
-    "descripcion": "",
+    "descripcion": "Con ambas manos unidas a la altura de las muñecas y separadas a nivel de los dedos realizar movimientos de apertura y cierre.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1987,7 +1989,7 @@
     "id": "LSP-000249",
     "categoria": "animales",
     "palabra": "concha de mar",
-    "descripcion": "",
+    "descripcion": "1. Colocar ambas manos con los dedos unidos, las muñecas en contacto y la parte central separada. 2.Configurar la seña de mar.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_200_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1995,7 +1997,7 @@
     "id": "LSP-000250",
     "categoria": "animales",
     "palabra": "cóndor",
-    "descripcion": "",
+    "descripcion": "1. colocar delante de la nariz el dorso de la mano derecha con el índice semiflexionado. 2. flexionar los codos y los brazos con mivimiento de aleteo.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_200_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2003,7 +2005,7 @@
     "id": "LSP-000251",
     "categoria": "animales",
     "palabra": "conejo",
-    "descripcion": "",
+    "descripcion": "Colocar ambas manos con el dorso hacia afuera, a la altura de la sien. Mover los dedos índice y medio, los demás dedos flexionados.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_200_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2011,7 +2013,7 @@
     "id": "LSP-000252",
     "categoria": "animales",
     "palabra": "culebra",
-    "descripcion": "",
+    "descripcion": "Colocar la mano izquierda a la altura del antebrazo derecho extendiendo el índice en ambas manos. Avanzar con movimientos ondulados.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_200_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2019,7 +2021,7 @@
     "id": "LSP-000253",
     "categoria": "animales",
     "palabra": "elefante",
-    "descripcion": "",
+    "descripcion": "con las yemas de los dedos a la altura de la boca hacer un movimiento hacia delante (simulando una trompa), uniendo los dedos.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_200_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2027,7 +2029,7 @@
     "id": "LSP-000254",
     "categoria": "animales",
     "palabra": "gallina",
-    "descripcion": "",
+    "descripcion": "1.Unir y separar los dedos índice y pulgar con movimiento a la altura de la boca. 2. Colocar el pulgar e índice haciendo pinza, sobre la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_200_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2035,7 +2037,7 @@
     "id": "LSP-000255",
     "categoria": "animales",
     "palabra": "gallo",
-    "descripcion": "",
+    "descripcion": "Llevar la mano con los dedos extendidos en posición vertical sobre la cabeza, con movimiento hacia atrás y hacia adelante.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_201_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2043,7 +2045,7 @@
     "id": "LSP-000256",
     "categoria": "animales",
     "palabra": "gato",
-    "descripcion": "",
+    "descripcion": "Unir las yemas de los dedos índice y pulgar, los demás dedos extendidos llevarlos sobre el labio superior realizando movimientos hacia afuera.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_201_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2059,7 +2061,7 @@
     "id": "LSP-000258",
     "categoria": "animales",
     "palabra": "jirafa",
-    "descripcion": "",
+    "descripcion": "Llevar los dedos semiflexionados de la mano derecha hacia el cuello y realizar un movimiento recto hacia arriba.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_201_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2067,7 +2069,7 @@
     "id": "LSP-000259",
     "categoria": "animales",
     "palabra": "león",
-    "descripcion": "",
+    "descripcion": "Con los dedos extendidos de la mano derecha, colocada en la parte central de la cabeza realizar un movimiento hacia atrás con los dedos.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_201_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2075,7 +2077,7 @@
     "id": "LSP-000260",
     "categoria": "animales",
     "palabra": "llama",
-    "descripcion": "",
+    "descripcion": "Uniendo los dedos anular, medio y pulgar, los otros dedos extendidos, realizar ligeros movimientos.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_201_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2083,7 +2085,7 @@
     "id": "LSP-000261",
     "categoria": "animales",
     "palabra": "loro",
-    "descripcion": "",
+    "descripcion": "Llevar hacia la nariz en índice derecho semiflexionado, la cara palmar de mano hacia afuera.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_202_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2099,7 +2101,7 @@
     "id": "LSP-000263",
     "categoria": "animales",
     "palabra": "mono",
-    "descripcion": "",
+    "descripcion": "Colocar en la cabeza la mano derecha y el pecho la mano izquierda, hacer movimientos con los dedos.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_202_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2107,7 +2109,7 @@
     "id": "LSP-000264",
     "categoria": "animales",
     "palabra": "mosca",
-    "descripcion": "",
+    "descripcion": "Unir índice y pulgar de la mano derecha, los demás dedos extendidos y efectuar un movimiento ondulatorio hacia la derecha.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_202_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2115,7 +2117,7 @@
     "id": "LSP-000265",
     "categoria": "animales",
     "palabra": "oso",
-    "descripcion": "",
+    "descripcion": "Cruzando los brazos sobre el pecho ejecutar movimientos con todos los dedos.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_202_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2123,7 +2125,7 @@
     "id": "LSP-000266",
     "categoria": "animales",
     "palabra": "oveja",
-    "descripcion": "",
+    "descripcion": "Apoyar el dorso de los dedos índice y medio extendidos y recorrer desde la muñeca hasta el antebrazo",
     "archivo_imagen": "imagenes/animales/revisar_pagina_202_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2131,7 +2133,7 @@
     "id": "LSP-000267",
     "categoria": "animales",
     "palabra": "pájaro",
-    "descripcion": "",
+    "descripcion": "1.Unir y separar con movimientos el índice y pulgar de la mano derecha, a la altura de los labios. 2. Flexionando los codos extender las manos hacia los lados realizando movimiento de aleteo.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_203_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2139,7 +2141,7 @@
     "id": "LSP-000268",
     "categoria": "animales",
     "palabra": "pato",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice a la altura de la naríz, realizar un movimiento hacia abajo.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_203_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2155,7 +2157,7 @@
     "id": "LSP-000270",
     "categoria": "animales",
     "palabra": "perro",
-    "descripcion": "",
+    "descripcion": "1. Chasquear los dedos. 2. Golpear suavemente la pierna con la mano deracha.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_203_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2163,7 +2165,7 @@
     "id": "LSP-000271",
     "categoria": "animales",
     "palabra": "pescado",
-    "descripcion": "",
+    "descripcion": "Colocar la mano derecha con los dedos hacia adelante, realizar un movimiento ondulario con la mano.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_203_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2171,7 +2173,7 @@
     "id": "LSP-000272",
     "categoria": "animales",
     "palabra": "pollo",
-    "descripcion": "",
+    "descripcion": "Unir y separar los dedos índice y pulgar delante de la boca.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_203_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2179,7 +2181,7 @@
     "id": "LSP-000273",
     "categoria": "animales",
     "palabra": "sapo",
-    "descripcion": "",
+    "descripcion": "Palma derecha ahuecada sobre la palma de la mano izquierda, con movimientos de salto",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2187,7 +2189,7 @@
     "id": "LSP-000274",
     "categoria": "animales",
     "palabra": "toro",
-    "descripcion": "",
+    "descripcion": "Apoyando los pulgares en la sien, el dedo índice extendido, los demás dedos flexionados sobre la palma, llevar la cabeza hacia adelante.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2195,7 +2197,7 @@
     "id": "LSP-000275",
     "categoria": "animales",
     "palabra": "tortuga",
-    "descripcion": "",
+    "descripcion": "Cubrir el dorso de la mano izquierda flexionada con la palma de la mano derecha dejando libre el pulgar izquierda en movimiento.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2203,7 +2205,7 @@
     "id": "LSP-000276",
     "categoria": "animales",
     "palabra": "Vaca",
-    "descripcion": "",
+    "descripcion": "Configurar "Y" con ambas manos, apoyar los pulgares extendidos en la sien, realizar un pequeño movimiento hacia arriba.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2211,7 +2213,7 @@
     "id": "LSP-000277",
     "categoria": "animales",
     "palabra": "zancudo",
-    "descripcion": "",
+    "descripcion": "Uniendo los dedos pulgar e índice de la mano derecha, llevarlos sobre el dorso del puño de la mano izquierda con movimiento de arriba hacia abajo.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2219,7 +2221,7 @@
     "id": "LSP-000278",
     "categoria": "animales",
     "palabra": "zorro",
-    "descripcion": "",
+    "descripcion": "1. Con la mano derecha abierta sobre la cara, realizar un movimiento hacia afuera, uniendo los dedos. 2. Configurar la letra "Z".",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4403,7 +4405,7 @@
     "id": "LSP-000555",
     "categoria": "paises_y_ciudades",
     "palabra": "américa",
-    "descripcion": "",
+    "descripcion": "Entrelazar dedos de ambas manos y realizar un movimiento circular.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4411,7 +4413,7 @@
     "id": "LSP-000556",
     "categoria": "paises_y_ciudades",
     "palabra": "américa del sur",
-    "descripcion": "",
+    "descripcion": "1.Seña de América. 2.Configurar "S".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4419,7 +4421,7 @@
     "id": "LSP-000557",
     "categoria": "paises_y_ciudades",
     "palabra": "áfrica",
-    "descripcion": "",
+    "descripcion": "Con la palma de la mano derecha extendida y el dedo medio flexionado, realizar un movimiento circular delante del rostro.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4427,7 +4429,7 @@
     "id": "LSP-000558",
     "categoria": "paises_y_ciudades",
     "palabra": "asia",
-    "descripcion": "",
+    "descripcion": "Configurar "A" y hacer un círculo completo alrededor del rostro, comenzando en el mentón.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4435,7 +4437,7 @@
     "id": "LSP-000559",
     "categoria": "paises_y_ciudades",
     "palabra": "oceanía",
-    "descripcion": "",
+    "descripcion": "Con cuatro dedos extendidos de la mano derecha a la altura del hombro derecho, realizar un movimiento ondulatorio.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4443,7 +4445,7 @@
     "id": "LSP-000560",
     "categoria": "paises_y_ciudades",
     "palabra": "europa",
-    "descripcion": "",
+    "descripcion": "Configurar "E" a la altura de la nariz, efectuar un movimiento circular alrededor del rostro, regresando al mismo punto.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4451,7 +4453,7 @@
     "id": "LSP-000561",
     "categoria": "paises_y_ciudades",
     "palabra": "alemania",
-    "descripcion": "",
+    "descripcion": "Colocar en la frente el dorso de la mano derecha con el índice extendido, los demás dedos flexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4459,7 +4461,7 @@
     "id": "LSP-000562",
     "categoria": "paises_y_ciudades",
     "palabra": "argentina",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha semiflexionada, realizar pequeños movimientos a la altura del hombro derecho.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4467,7 +4469,7 @@
     "id": "LSP-000563",
     "categoria": "paises_y_ciudades",
     "palabra": "bolivia",
-    "descripcion": "",
+    "descripcion": "Unir las yemas del pulgar, medio y anular, realizar movimientos giratorios.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4475,7 +4477,7 @@
     "id": "LSP-000564",
     "categoria": "paises_y_ciudades",
     "palabra": "brasil",
-    "descripcion": "",
+    "descripcion": "Flexionando el pulgar de la mano derecha, los demás dedos extendidos, realizar un movimiento ondulatorio hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4483,7 +4485,7 @@
     "id": "LSP-000565",
     "categoria": "paises_y_ciudades",
     "palabra": "canadá",
-    "descripcion": "",
+    "descripcion": "Con los dedos flexionados excepto el pulgar, apoyar el borde radial de la mano derecha en el pecho, ejecutar movimiento de la derecha hacia la izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4491,7 +4493,7 @@
     "id": "LSP-000566",
     "categoria": "paises_y_ciudades",
     "palabra": "chile",
-    "descripcion": "",
+    "descripcion": "Unir yemas de dedo índice y pulgar en la sien, los demás dedos extendidos y realizar un movimiento hacia atrás.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4499,7 +4501,7 @@
     "id": "LSP-000567",
     "categoria": "paises_y_ciudades",
     "palabra": "china",
-    "descripcion": "",
+    "descripcion": "Trazar una línea horizontal en el pecho de izquierda a derecha y de ese punto una línea vertical hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4507,7 +4509,7 @@
     "id": "LSP-000568",
     "categoria": "paises_y_ciudades",
     "palabra": "colombia",
-    "descripcion": "",
+    "descripcion": "Configurar "C" con la mano derecha, realizando movimientos giratorios.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4515,7 +4517,7 @@
     "id": "LSP-000569",
     "categoria": "paises_y_ciudades",
     "palabra": "costa rica",
-    "descripcion": "",
+    "descripcion": "Sobre el dorso de la mano izquierda, configurar la "C" y la "R".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4523,7 +4525,7 @@
     "id": "LSP-000570",
     "categoria": "paises_y_ciudades",
     "palabra": "cuba",
-    "descripcion": "",
+    "descripcion": "1.Colocar los cuatro dedos extendidos de la mano derecha en la frente. 2.Girar la posición hacia afuera.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4531,7 +4533,7 @@
     "id": "LSP-000571",
     "categoria": "paises_y_ciudades",
     "palabra": "ecuador",
-    "descripcion": "",
+    "descripcion": "Apoyar sobre el mentón los dedos índice y medio semiflexionados, realizar pequeños movimientos de giro sobre él.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4539,7 +4541,7 @@
     "id": "LSP-000572",
     "categoria": "paises_y_ciudades",
     "palabra": "egipto",
-    "descripcion": "",
+    "descripcion": "Llevar a la frente el dorso de la mano derecha con el índice semiflexionado, los demás dedos flexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4547,7 +4549,7 @@
     "id": "LSP-000573",
     "categoria": "paises_y_ciudades",
     "palabra": "españa",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice de la mano en contacto con el hombro derecho, hacer un movimiento horizontal al hombro izquierdo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4555,7 +4557,7 @@
     "id": "LSP-000574",
     "categoria": "paises_y_ciudades",
     "palabra": "estados unidos",
-    "descripcion": "",
+    "descripcion": "Formar la "U" del alfabeto con la mano derecha, realizar un movimiento de vaivén de derecha a izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4563,7 +4565,7 @@
     "id": "LSP-000575",
     "categoria": "paises_y_ciudades",
     "palabra": "francia",
-    "descripcion": "",
+    "descripcion": "1.Configurar la letra F con la mano derecha a la altura de la boca. 2.Girar la muñeca hacia adelante.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4571,7 +4573,7 @@
     "id": "LSP-000576",
     "categoria": "paises_y_ciudades",
     "palabra": "holanda",
-    "descripcion": "",
+    "descripcion": "Manos abiertas al nivel de las orejas, llevarlas hacia afuera uniendo las yemas.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4579,7 +4581,7 @@
     "id": "LSP-000577",
     "categoria": "paises_y_ciudades",
     "palabra": "india",
-    "descripcion": "",
+    "descripcion": "Llevar el dedo índice extendido al centro de la frente.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4587,7 +4589,7 @@
     "id": "LSP-000578",
     "categoria": "paises_y_ciudades",
     "palabra": "inglaterra",
-    "descripcion": "",
+    "descripcion": "Ejecutar un movimiento en forma de aspa delante del tronco con los dedos índice, medio, anular y meñique extendidos y el pulgar flexionado en la palma de la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4595,7 +4597,7 @@
     "id": "LSP-000579",
     "categoria": "paises_y_ciudades",
     "palabra": "uruguay",
-    "descripcion": "",
+    "descripcion": "Formar la "U" del alfabeto con la cara palmar hacia adentro y girar la mano hacia afuera varias veces.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4603,7 +4605,7 @@
     "id": "LSP-000580",
     "categoria": "paises_y_ciudades",
     "palabra": "venezuela",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio extendidos y separados de la mano derecha hacer un movimiento ondulatorio hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4611,7 +4613,7 @@
     "id": "LSP-000581",
     "categoria": "paises_y_ciudades",
     "palabra": "amazonas",
-    "descripcion": "",
+    "descripcion": "Configurando "A" con la mano derecha y realizar movimientos ondulatorios hacia la izquierda con la mano extendida.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4619,7 +4621,7 @@
     "id": "LSP-000582",
     "categoria": "paises_y_ciudades",
     "palabra": "ancash",
-    "descripcion": "",
+    "descripcion": "Configurando "A" con la mano derecha realizar movimientos ondulatorios amplios a la altura de la frente.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4627,7 +4629,7 @@
     "id": "LSP-000583",
     "categoria": "paises_y_ciudades",
     "palabra": "apurímac",
-    "descripcion": "",
+    "descripcion": "1.Configurar la letra "A". 2.Configurar la letra "C" con un movimiento horizontal hacia la derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4635,7 +4637,7 @@
     "id": "LSP-000584",
     "categoria": "paises_y_ciudades",
     "palabra": "arequipa",
-    "descripcion": "",
+    "descripcion": "Colocar la mano izquierda con los dedos semiflexionados y el dorso hacia afuera, introducir la mano derecha haciendo contacto con la palma de la mano izquierda con movimiento de abajo hacia arriba, terminar la configuración con los dedos extendidos.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4643,7 +4645,7 @@
     "id": "LSP-000585",
     "categoria": "paises_y_ciudades",
     "palabra": "huánuco",
-    "descripcion": "",
+    "descripcion": "1.Configurar la seña de león. 2.Colocar la mano derecha delante del tronco con los dedos semiflexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4651,7 +4653,7 @@
     "id": "LSP-000586",
     "categoria": "paises_y_ciudades",
     "palabra": "huancayo",
-    "descripcion": "",
+    "descripcion": "Configurar letra H con la mano derecha, realizar movimientos circulares hacia adelante.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4659,7 +4661,7 @@
     "id": "LSP-000587",
     "categoria": "paises_y_ciudades",
     "palabra": "ica",
-    "descripcion": "",
+    "descripcion": "1.Configurar "I" con la mano derecha. 2.Apoyar sobre la palma izquierda el borde cubital de la mano derecha con los dedos semiflexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4667,7 +4669,7 @@
     "id": "LSP-000588",
     "categoria": "paises_y_ciudades",
     "palabra": "iquitos",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio de la mano derecha realizar un movimiento pequeño sobre la mejilla derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4675,7 +4677,7 @@
     "id": "LSP-000589",
     "categoria": "paises_y_ciudades",
     "palabra": "madre de dios",
-    "descripcion": "",
+    "descripcion": "1.Configurar "M" con la mano derecha. 2.Configurar la seña "DIOS".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4683,7 +4685,7 @@
     "id": "LSP-000590",
     "categoria": "paises_y_ciudades",
     "palabra": "pucallpa",
-    "descripcion": "",
+    "descripcion": "Con las dos manos juntas y extendidas con las palmas hacia arriba, realizar un movimiento de derecha a izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4691,7 +4693,7 @@
     "id": "LSP-000591",
     "categoria": "paises_y_ciudades",
     "palabra": "puno",
-    "descripcion": "",
+    "descripcion": "Configurar la letra "P" en la mejilla derecha y realizar movimientos circulares sobre ella.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4699,7 +4701,7 @@
     "id": "LSP-000592",
     "categoria": "paises_y_ciudades",
     "palabra": "san martin",
-    "descripcion": "",
+    "descripcion": "1.Configurar "S" con la mano derecha. 2.Realizando un movimiento ondulatorio hacia abajo configurar "M".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4707,7 +4709,7 @@
     "id": "LSP-000593",
     "categoria": "paises_y_ciudades",
     "palabra": "tacna",
-    "descripcion": "",
+    "descripcion": "1.Formar "T" con la mano derecha. 2.Sobre el antebrazo izquierdo realizar un movimiento semicircular, desde la altura del codo hasta los dedos.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4715,7 +4717,7 @@
     "id": "LSP-000594",
     "categoria": "paises_y_ciudades",
     "palabra": "trujillo",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha simular coger un pañuelo y con el cuerpo adoptar posición de baile.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4723,7 +4725,7 @@
     "id": "LSP-000595",
     "categoria": "paises_y_ciudades",
     "palabra": "tumbes",
-    "descripcion": "",
+    "descripcion": "Configurar la letra "T" con la mano derecha en la frente.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4731,7 +4733,7 @@
     "id": "LSP-000596",
     "categoria": "paises_y_ciudades",
     "palabra": "ucayali",
-    "descripcion": "",
+    "descripcion": "1.Configurar "U" con la mano derecha. 2.Juntar ambas manos con los dedos semiflexionados y realizar movimientos hacia adelante.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4739,7 +4741,7 @@
     "id": "LSP-000597",
     "categoria": "paises_y_ciudades",
     "palabra": "lima",
-    "descripcion": "",
+    "descripcion": "Colocar sobre la palma de la mano izquierda la derecha configurando "L".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4747,7 +4749,7 @@
     "id": "LSP-000598",
     "categoria": "paises_y_ciudades",
     "palabra": "ate",
-    "descripcion": "",
+    "descripcion": "1.Configurar "A" en ambas manos. 2.Ir distanciándolas poco a poco.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4755,7 +4757,7 @@
     "id": "LSP-000599",
     "categoria": "paises_y_ciudades",
     "palabra": "barranco",
-    "descripcion": "",
+    "descripcion": "A la altura de la cabeza configurar "B" con la mano derecha, la palma hacia afuera, bajar la mano con movimiento recto.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4763,7 +4765,7 @@
     "id": "LSP-000600",
     "categoria": "paises_y_ciudades",
     "palabra": "callao",
-    "descripcion": "",
+    "descripcion": "Configurar "C" con la mano derecha, acompañar con movimiento de izquierda a derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4771,7 +4773,7 @@
     "id": "LSP-000601",
     "categoria": "paises_y_ciudades",
     "palabra": "comas",
-    "descripcion": "",
+    "descripcion": "Configurar "C" con la mano derecha y realizar un movimiento de derecha a izquierda, sobre el dorso de la mano izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4779,7 +4781,7 @@
     "id": "LSP-000602",
     "categoria": "paises_y_ciudades",
     "palabra": "chorrillos",
-    "descripcion": "",
+    "descripcion": "1.Con la mano derecha configurar "C". 2.Juntar las manos con los dedos semiflexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4787,7 +4789,7 @@
     "id": "LSP-000603",
     "categoria": "paises_y_ciudades",
     "palabra": "chosica",
-    "descripcion": "",
+    "descripcion": "Con el puño de la mano derecha a la altura del pecho, realizar movimientos circulares hacia delante.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4795,7 +4797,7 @@
     "id": "LSP-000604",
     "categoria": "paises_y_ciudades",
     "palabra": "jesús maría",
-    "descripcion": "",
+    "descripcion": "1.Seña de Jesús. 2.Configurar "M" con la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4803,7 +4805,7 @@
     "id": "LSP-000605",
     "categoria": "paises_y_ciudades",
     "palabra": "la victoria",
-    "descripcion": "",
+    "descripcion": "Configurar "V" con la mano derecha sobre la frente, acompañar con movimiento hacia adelante.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4811,7 +4813,7 @@
     "id": "LSP-000606",
     "categoria": "paises_y_ciudades",
     "palabra": "lince",
-    "descripcion": "",
+    "descripcion": "Configurar "L" con la mano derecha con movimientos de derecha a izquierda, sobre el dorso de la mano izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4819,7 +4821,7 @@
     "id": "LSP-000607",
     "categoria": "paises_y_ciudades",
     "palabra": "la molina",
-    "descripcion": "",
+    "descripcion": "Configurar "M" con la mano derecha y ejecutar un movimiento ondulatorio hacia arriba.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4827,7 +4829,7 @@
     "id": "LSP-000608",
     "categoria": "paises_y_ciudades",
     "palabra": "magdalena",
-    "descripcion": "",
+    "descripcion": "Formar la "T" en la sien, realizar un movimiento giratorio.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4835,7 +4837,7 @@
     "id": "LSP-000609",
     "categoria": "paises_y_ciudades",
     "palabra": "miraflores",
-    "descripcion": "",
+    "descripcion": "Configurar "C" con ambas manos a la altura de las orejas, realizar un movimiento giratorio.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4843,7 +4845,7 @@
     "id": "LSP-000610",
     "categoria": "paises_y_ciudades",
     "palabra": "monterrico",
-    "descripcion": "",
+    "descripcion": "Colocar ambos puños paralelos, realizar movimiento circular como cabalgando.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4851,7 +4853,7 @@
     "id": "LSP-000611",
     "categoria": "paises_y_ciudades",
     "palabra": "pueblo libre",
-    "descripcion": "",
+    "descripcion": "1.Configurar "P" con la mano derecha. 2.Configurar "L" con ambas manos, acompañado de movimiento recto hacia los lados separando las manos.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4859,7 +4861,7 @@
     "id": "LSP-000612",
     "categoria": "paises_y_ciudades",
     "palabra": "rímac",
-    "descripcion": "",
+    "descripcion": "1.Configurar "R" del alfabeto. 2.Movimiento hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4867,7 +4869,7 @@
     "id": "LSP-000613",
     "categoria": "paises_y_ciudades",
     "palabra": "san borja",
-    "descripcion": "",
+    "descripcion": "1.Configurar "S" con la mano derecha. 2.Configurar "B" con la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4875,7 +4877,7 @@
     "id": "LSP-000614",
     "categoria": "paises_y_ciudades",
     "palabra": "san isidro",
-    "descripcion": "",
+    "descripcion": "1.Configurar "S" con la mano derecha. 2.Formarla "I" con la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8935,4 +8937,300 @@
   "archivo_imagen": "imagenes/himno_nacional/himno_nacional_12.png",
   "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
 }
+  {
+    "id": "LSP-900001",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 01",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_01.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900002",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 02",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_02.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900003",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 03",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_03.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900004",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 04",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_04.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900005",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 05",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_05.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900006",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 06",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_06.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900007",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 07",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_07.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900008",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 08",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_08.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900009",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 09",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_09.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900010",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 10",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_10.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900011",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 11",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_11.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900012",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 12",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_12.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900013",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 13",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_13.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-900014",
+    "categoria": "padre_nuestro",
+    "palabra": "Parte 14",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_14.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910001",
+    "categoria": "ave_maria",
+    "palabra": "Parte 01",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_01.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910002",
+    "categoria": "ave_maria",
+    "palabra": "Parte 02",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_02.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910003",
+    "categoria": "ave_maria",
+    "palabra": "Parte 03",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_03.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910004",
+    "categoria": "ave_maria",
+    "palabra": "Parte 04",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_04.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910005",
+    "categoria": "ave_maria",
+    "palabra": "Parte 05",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_05.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910006",
+    "categoria": "ave_maria",
+    "palabra": "Parte 06",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_06.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910007",
+    "categoria": "ave_maria",
+    "palabra": "Parte 07",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_07.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910008",
+    "categoria": "ave_maria",
+    "palabra": "Parte 08",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_08.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910009",
+    "categoria": "ave_maria",
+    "palabra": "Parte 09",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_09.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910010",
+    "categoria": "ave_maria",
+    "palabra": "Parte 10",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_10.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-910011",
+    "categoria": "ave_maria",
+    "palabra": "Parte 11",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/ave_maria/ave_maria_11.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920001",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 01",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_01.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920002",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 02",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_02.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920003",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 03",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_03.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920004",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 04",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_04.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920005",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 05",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_05.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920006",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 06",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_06.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920007",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 07",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_07.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920008",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 08",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_08.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920009",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 09",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_09.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920010",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 10",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_10.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920011",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 11",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_11.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-920012",
+    "categoria": "himno_nacional",
+    "palabra": "Parte 12",
+    "descripcion": "",
+    "archivo_imagen": "imagenes/himno_nacional/himno_nacional_12.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  }
 ]

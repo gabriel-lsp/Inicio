@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const USUARIO_ANTERIOR = "gabriel-lsp";
+  const USUARIO_ANTERIOR = "crebe-ucayali";
   const USUARIO_ACTUAL = "crebe-ucayali";
   const ATRIBUTOS_URL = [
     "href",

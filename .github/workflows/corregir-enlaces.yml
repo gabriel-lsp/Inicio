@@ -1,0 +1,114 @@
+name: Corregir enlaces institucionales
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/corregir-enlaces.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  corregir-enlaces:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Actualizar rutas y accesos
+        shell: python
+        run: |
+          from pathlib import Path
+          import json
+
+          reemplazos = [
+              (
+                  "https://gabriel-lsp.github.io/capacitaciones-crebe-ucayali/",
+                  "https://crebe-ucayali.github.io/capacitaciones/",
+              ),
+              (
+                  "https://gabriel-lsp.github.io/",
+                  "https://crebe-ucayali.github.io/",
+              ),
+              (
+                  "https://crebe-ucayali.netlify.app/",
+                  "https://crebe-ucayali.github.io/",
+              ),
+          ]
+
+          extensiones = {".html", ".json", ".js", ".css", ".md", ".txt", ".xml"}
+          excluidos = {".git", ".github"}
+          modificados = []
+
+          for archivo in Path(".").rglob("*"):
+              if not archivo.is_file() or archivo.suffix.lower() not in extensiones:
+                  continue
+              if any(parte in excluidos for parte in archivo.parts):
+                  continue
+              try:
+                  original = archivo.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+              actualizado = original
+              for anterior, nuevo in reemplazos:
+                  actualizado = actualizado.replace(anterior, nuevo)
+              if actualizado != original:
+                  archivo.write_text(actualizado, encoding="utf-8")
+                  modificados.append(str(archivo))
+
+          index = Path("index.html")
+          if index.exists():
+              texto = index.read_text(encoding="utf-8")
+              enlace_li = "https://crebe-ucayali.github.io/lecturas-inclusivas/"
+              if enlace_li not in texto:
+                  tarjeta_ra = '<a class="tarjeta repositorio destacada" href="https://crebe-ucayali.github.io/repositorio-accesible/"'
+                  posicion = texto.find(tarjeta_ra)
+                  if posicion != -1:
+                      tarjeta_li = (
+                          '<a class="tarjeta lecturas" href="https://crebe-ucayali.github.io/lecturas-inclusivas/" '
+                          'rel="noopener" target="_blank">'
+                          '<div class="numero">LI</div>'
+                          '<h3>Lecturas Inclusivas</h3>'
+                          '<p>Blog educativo con artículos, orientaciones y lecturas vinculadas a inclusión, accesibilidad y atención a la diversidad.</p>'
+                          '<span class="boton">Ingresar a Lecturas Inclusivas</span>'
+                          '</a>\n'
+                      )
+                      texto = texto[:posicion] + tarjeta_li + texto[posicion:]
+                      index.write_text(texto, encoding="utf-8")
+                      if "index.html" not in modificados:
+                          modificados.append("index.html")
+
+          busqueda = Path("busqueda.json")
+          if busqueda.exists():
+              datos = json.loads(busqueda.read_text(encoding="utf-8"))
+              enlace_li = "https://crebe-ucayali.github.io/lecturas-inclusivas/"
+              if not any(item.get("url") == enlace_li for item in datos if isinstance(item, dict)):
+                  datos.append({
+                      "titulo": "Lecturas Inclusivas",
+                      "modulo": "LI",
+                      "tipo": "Blog educativo",
+                      "descripcion": "Artículos, orientaciones y lecturas sobre inclusión, accesibilidad y atención a la diversidad.",
+                      "url": enlace_li,
+                      "etiquetas": "lecturas inclusivas blog articulos orientaciones inclusion accesibilidad diversidad"
+                  })
+                  busqueda.write_text(json.dumps(datos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                  if "busqueda.json" not in modificados:
+                      modificados.append("busqueda.json")
+
+          print("Archivos modificados:")
+          for archivo in modificados:
+              print(f"- {archivo}")
+
+      - name: Confirmar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html busqueda.json noticias-destacadas.json 2>/dev/null || true
+          git add -u
+          if git diff --cached --quiet; then
+            echo "No se encontraron cambios pendientes."
+          else
+            git commit -m "Corregir enlaces del ecosistema CREBE"
+            git push
+          fi

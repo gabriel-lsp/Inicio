@@ -1,4 +1,5 @@
 @import url("estilos-original.css");
+@import url("accesibilidad.css?v=1");
 
 /* Centrado equilibrado de NI y RA sin alterar dimensiones ni colores */
 @media (min-width:901px){

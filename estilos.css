@@ -1,7 +1,6 @@
 @import url("estilos-original.css");
-@import url("accesibilidad.css?v=3");
+@import url("accesibilidad.css?v=4");
 
-/* Compatibilidad temporal durante la migración al panel central EVA. */
 /* Centrado equilibrado de NI y RA sin alterar dimensiones ni colores */
 @media (min-width:901px){
   .tarjetas > .noti,

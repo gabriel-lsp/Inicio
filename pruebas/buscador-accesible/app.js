@@ -669,7 +669,5 @@
     aplicarBusqueda({ actualizarDireccion: false });
   });
 
-  renderizarHistorial();
-  actualizarFavoritos();
   cargarCatalogo();
 })();

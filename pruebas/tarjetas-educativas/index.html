@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tarjetas educativas accesibles | EVA</title>
-  <meta name="description" content="Herramienta experimental para crear, guardar y practicar con tarjetas educativas multimedia accesibles en EVA.">
-  <link rel="stylesheet" href="estilos.css?v=3">
+  <meta name="description" content="Herramienta para crear, guardar, practicar, imprimir, escuchar y organizar tarjetas educativas accesibles en EVA.">
+  <link rel="stylesheet" href="estilos.css?v=4">
+  <link rel="stylesheet" href="impresion.css?v=1" media="print">
 </head>
 <body>
   <a class="saltar" href="#contenido-principal">Saltar al contenido principal</a>
@@ -22,16 +23,18 @@
 
   <main id="contenido-principal" class="contenedor">
     <section class="presentacion" aria-labelledby="titulo-pagina">
-      <p class="etiqueta">Ruta experimental · Fase 2</p>
+      <p class="etiqueta">Ruta experimental · Fase 3 final</p>
       <h1 id="titulo-pagina">Tarjetas educativas accesibles</h1>
       <p>
-        Practique con las tarjetas disponibles o cree una colección personal con imágenes accesibles,
-        plantillas visuales y contenido guardado en este navegador.
+        Cree, organice, escuche, practique, comparta e imprima tarjetas educativas con imágenes
+        accesibles, plantillas visuales y secuencias personalizadas.
       </p>
       <nav class="atajos-seccion" aria-label="Secciones de la herramienta">
         <a href="#practicar">Practicar</a>
         <a href="#crear">Crear tarjeta</a>
         <a href="#mis-tarjetas">Mis tarjetas</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#secuencias">Secuencias</a>
       </nav>
     </section>
 
@@ -76,7 +79,28 @@
       <div class="acciones-secundarias">
         <button id="aleatoria" type="button">Tarjeta aleatoria</button>
         <button id="reiniciar" type="button">Reiniciar práctica</button>
+        <button id="imprimir-actual" type="button">Imprimir tarjeta</button>
       </div>
+
+      <fieldset class="controles-voz">
+        <legend>Lectura en voz alta</legend>
+        <div class="acciones-voz">
+          <button id="escuchar-tarjeta" type="button" class="principal">Escuchar tarjeta</button>
+          <button id="pausar-lectura" type="button" disabled>Pausar</button>
+          <button id="detener-lectura" type="button" disabled>Detener</button>
+          <label>
+            Velocidad
+            <select id="velocidad-lectura">
+              <option value="0.75">Lenta</option>
+              <option value="1" selected>Normal</option>
+              <option value="1.25">Rápida</option>
+            </select>
+          </label>
+        </div>
+        <p id="estado-voz" class="estado-formulario" role="status" aria-live="polite">
+          Active “Escuchar tarjeta” para oír el contenido.
+        </p>
+      </fieldset>
 
       <details class="ayuda">
         <summary>Cómo usar la práctica</summary>
@@ -84,7 +108,8 @@
           <li>Use Anterior y Siguiente para recorrer las tarjetas.</li>
           <li>Presione Espacio o Enter sobre la tarjeta para mostrar u ocultar el contenido.</li>
           <li>Use las flechas izquierda y derecha para cambiar de tarjeta.</li>
-          <li>Las imágenes incluyen la descripción accesible escrita al crear cada tarjeta.</li>
+          <li>La lectura en voz alta utiliza las voces disponibles en su navegador.</li>
+          <li>“Imprimir tarjeta” también permite guardarla como PDF desde el cuadro de impresión.</li>
         </ul>
       </details>
     </section>
@@ -237,6 +262,138 @@
       <div id="lista-personales" class="lista-personales" aria-label="Tarjetas personales guardadas"></div>
     </section>
 
+    <section id="herramientas" class="panel" aria-labelledby="titulo-herramientas">
+      <div class="seccion-encabezado">
+        <div>
+          <p class="etiqueta-seccion">Portabilidad y uso físico</p>
+          <h2 id="titulo-herramientas">Imprimir, exportar e importar</h2>
+          <p>Prepare materiales A4 o traslade su colección entre dispositivos mediante un archivo JSON.</p>
+        </div>
+      </div>
+
+      <div class="herramientas-cuadricula">
+        <article class="herramienta">
+          <h3>Imprimir colección</h3>
+          <label>
+            Contenido
+            <select id="contenido-impresion">
+              <option value="personales">Todas mis tarjetas</option>
+              <option value="favoritas">Solo favoritas</option>
+              <option value="filtradas">Resultados visibles del banco</option>
+            </select>
+          </label>
+          <label>
+            Distribución en hoja A4
+            <select id="tarjetas-por-hoja">
+              <option value="1">1 tarjeta por hoja</option>
+              <option value="2">2 tarjetas por hoja</option>
+              <option value="4" selected>4 tarjetas por hoja</option>
+            </select>
+          </label>
+          <button id="imprimir-coleccion" type="button" class="principal">Preparar impresión</button>
+          <p class="ayuda-breve">En el cuadro del navegador puede elegir una impresora o “Guardar como PDF”.</p>
+          <p id="estado-impresion" class="estado-formulario" role="status" aria-live="polite"></p>
+        </article>
+
+        <article class="herramienta">
+          <h3>Exportar respaldo</h3>
+          <label class="casilla-filtro">
+            <input id="exportar-imagenes" type="checkbox" checked>
+            Incluir imágenes en el respaldo
+          </label>
+          <button id="exportar-coleccion" type="button" class="principal">Descargar colección JSON</button>
+          <p class="ayuda-breve">El archivo incluye sus tarjetas, favoritos, plantillas y secuencias.</p>
+        </article>
+
+        <article class="herramienta">
+          <h3>Importar respaldo</h3>
+          <label>
+            Archivo JSON
+            <input id="archivo-importacion" type="file" accept="application/json,.json">
+          </label>
+          <label>
+            Forma de incorporación
+            <select id="modo-importacion">
+              <option value="combinar">Combinar con mi colección</option>
+              <option value="reemplazar">Reemplazar mi colección</option>
+            </select>
+          </label>
+          <button id="importar-coleccion" type="button">Importar colección</button>
+          <p id="estado-transferencia" class="estado-formulario" role="status" aria-live="polite">
+            No se ha seleccionado ningún archivo.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="secuencias" class="panel" aria-labelledby="titulo-secuencias">
+      <div class="seccion-encabezado">
+        <div>
+          <p class="etiqueta-seccion">Organización progresiva</p>
+          <h2 id="titulo-secuencias">Secuencias de tarjetas</h2>
+          <p>Agrupe tarjetas personales, cambie su orden y practíquelas como una actividad paso a paso.</p>
+        </div>
+      </div>
+
+      <form id="formulario-secuencia" class="formulario-secuencia">
+        <input id="secuencia-id" type="hidden">
+        <label>
+          Nombre de la secuencia
+          <input id="nombre-secuencia" type="text" maxlength="80" required placeholder="Ejemplo: Rutina para lavarse las manos">
+        </label>
+
+        <fieldset>
+          <legend>Seleccione las tarjetas</legend>
+          <p class="ayuda-breve">El orden inicial seguirá la lista. Después podrá mover cada tarjeta hacia arriba o abajo.</p>
+          <div id="selector-tarjetas-secuencia" class="selector-tarjetas-secuencia"></div>
+        </fieldset>
+
+        <div class="acciones-formulario">
+          <button id="guardar-secuencia" type="submit" class="principal">Guardar secuencia</button>
+          <button id="cancelar-secuencia" type="button" hidden>Cancelar edición</button>
+        </div>
+        <p id="estado-secuencia" class="estado-formulario" role="status" aria-live="polite">
+          Cree al menos una tarjeta personal antes de formar una secuencia.
+        </p>
+      </form>
+
+      <div class="separador-seccion"></div>
+
+      <h3>Secuencias guardadas</h3>
+      <div id="lista-secuencias" class="lista-secuencias"></div>
+
+      <section id="visor-secuencia" class="visor-secuencia" aria-labelledby="titulo-visor-secuencia" hidden>
+        <div class="seccion-encabezado">
+          <div>
+            <p id="progreso-secuencia" class="progreso" aria-live="polite">Paso 1</p>
+            <h3 id="titulo-visor-secuencia">Práctica de secuencia</h3>
+          </div>
+          <button id="cerrar-visor-secuencia" type="button">Cerrar práctica</button>
+        </div>
+
+        <article id="tarjeta-secuencia" class="tarjeta plantilla-clasica" tabindex="0">
+          <div class="tarjeta-metadatos">
+            <span id="categoria-secuencia" class="categoria">Categoría</span>
+            <span id="tipo-secuencia" class="tipo-tarjeta">Tipo</span>
+          </div>
+          <figure id="contenedor-imagen-secuencia" class="tarjeta-imagen" hidden>
+            <img id="imagen-secuencia" alt="">
+          </figure>
+          <h3 id="frente-secuencia">Contenido de la tarjeta</h3>
+          <div id="reverso-secuencia" class="respuesta" hidden>
+            <p id="etiqueta-reverso-secuencia" class="respuesta-etiqueta">Respuesta</p>
+            <p id="texto-reverso-secuencia"></p>
+          </div>
+        </article>
+
+        <div class="acciones">
+          <button id="anterior-secuencia" type="button">Anterior</button>
+          <button id="mostrar-secuencia" type="button" class="principal" aria-expanded="false">Mostrar contenido</button>
+          <button id="siguiente-secuencia" type="button">Siguiente</button>
+        </div>
+      </section>
+    </section>
+
     <section class="explicacion" aria-labelledby="titulo-fases">
       <h2 id="titulo-fases">Desarrollo gradual de la herramienta</h2>
       <div class="usos">
@@ -244,23 +401,26 @@
           <h3>Fase 1 · Completada</h3>
           <p>Crear, guardar, editar, duplicar, eliminar, buscar y practicar con tarjetas personales.</p>
         </article>
-        <article class="fase-actual">
-          <h3>Fase 2 · Activa</h3>
-          <p>Imágenes locales optimizadas, texto alternativo obligatorio, plantillas visuales, favoritos y categorías sugeridas.</p>
+        <article class="fase-completa">
+          <h3>Fase 2 · Completada</h3>
+          <p>Imágenes optimizadas, texto alternativo, plantillas visuales, favoritos y categorías sugeridas.</p>
         </article>
-        <article>
-          <h3>Fase 3 · Pendiente</h3>
-          <p>Añadir impresión, lectura en voz alta, secuencias y exportación de colecciones.</p>
+        <article class="fase-actual">
+          <h3>Fase 3 · Completada</h3>
+          <p>Impresión A4, lectura en voz alta, respaldo JSON y secuencias educativas ordenables.</p>
         </article>
       </div>
     </section>
   </main>
 
+  <section id="zona-impresion" class="zona-impresion" aria-hidden="true" hidden></section>
+
   <footer>
-    <p>Herramienta experimental de EVA. Las tarjetas y sus imágenes se almacenan localmente en el navegador.</p>
+    <p>Herramienta experimental de EVA. Los datos se almacenan localmente y pueden exportarse como respaldo.</p>
   </footer>
 
   <script src="app.js?v=3"></script>
+  <script src="fase3.js?v=1"></script>
   <script src="https://crebe-ucayali.github.io/accesos-complementarios/accesibilidad/accesibilidad.js?v=10"></script>
 </body>
 </html>
